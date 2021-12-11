@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+*{
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: white;
+}
+
+body{
+  background: linear-gradient(-45deg, #333e5f, #2e2e31, #0a3e52, #093d68);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  
+  text-align: center;
+}
+
+
+.container{
+  padding: 0 1rem;
+  min-height: 86.1vh;
+}
+
+.header{
+  position: relative;
+   height: 100vh;
+  width: 100%;
+  min-height: 48rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+ justify-content: space-between;
+  &-title{
+    padding: 2em 0;
+  }
+  &-intro{
+    margin: 0 auto;
+    max-width: 28rem;
+    /*mirar estilos*/
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.main{
+
+  .section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    &-about{
+        margin: 0 auto;
+        max-width: 28rem;
+        /*mirar estilos*/
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      
+    }
+
+  }
+
+}
+
+.c-navbar{
+    position: fixed;
+    display: block;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    box-shadow: 0px 5px 5px black;
+    z-index: 100;
+    
+    a{  
+      display: inline-block;
+      padding-top: 10px;
+        margin: 0px 6px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        &:hover{
+          text-decoration: underline;
+      }
+    }
+}
+
+
+.c-footer{
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: 10vh;
+  min-height: 16em;
+  align-items: center;
+  justify-content: center;
+  
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+  .down-below{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .links{
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+}
+
+// Estilos de imagenes
+.img-face{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.img-pixel{
+  height: 300px;
+  width: 300px;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
