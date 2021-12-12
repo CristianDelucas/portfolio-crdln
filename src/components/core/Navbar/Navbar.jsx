@@ -12,7 +12,7 @@ const Navbar = () => {
                 <navbar className="c-navbar">
                     <Link to='/'>Home</Link>
                     <Link to='/#web'>Web</Link>
-                    <Link to='/#proyects'>Proyectos</Link>
+                    <Link to='/#games'>Juegos</Link>
                     <Link to='/#about'>About</Link>
                     <Link to='/resume'>Resume</Link>
                 </navbar>
