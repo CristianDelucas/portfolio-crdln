@@ -30,7 +30,7 @@ const ResumePage = () => {
                     </section>
                     <section className="section">
                         <div className="section-title">
-                            <h1>PRÁCTICAS FP DAM EIKONDATA a</h1>
+                            <h1>PRÁCTICAS FP DAM EIKONDATA</h1>
                         </div>
                         <div className="section-description">
                             <p>Marzo 2018 - Junio 2018</p>
